@@ -1,6 +1,6 @@
 #!/bin/sh
 
-QUERY=$(echo | dmenu -i -p "What you want to download?")
+QUERY=$(echo | dmenu -i -p "What you want to download?" | sed 's/\s/%20/g')
 echo $QUERY
 if [$QUERY -eq ""]; then
         echo "You need to write something..." | dmenu -p "Choose the torrent:"
