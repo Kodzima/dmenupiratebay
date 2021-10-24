@@ -1,2 +1,2 @@
 # dmenupiratebay
-You can search and download torrents from ThePirateBay use dmenu
+You can search and download torrents from ThePirateBay using dmenu
